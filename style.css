@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 1.125rem;
+    font-family: Monte;
+    font-weight: 500;
+}
+/* main{
+    width: 88vw;
+    margin: auto;
+} */
+a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.color{
+    color: #B92C00;
+} header{
+    width: 90vw;
+    display: flex;
+    margin: auto;
+} 
+.nav{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    /* align-items: center; */
+}
+.navbar_logo-link{
+    display: flex;
+    width: 55%; 
+    align-items: center;
+}
+.navbar_logo-link li a{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.logo{
+    width: 25%;
+}
+.nav-links{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+.navbar-btn{
+    width: 25%;
+}
+.nav-btns{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    font-weight: 700;
+}
+.join-us-btn{
+       padding: 0.75rem 2.25rem;
+       background-color: #B92C00;
+       color: #FFFFFF;
+       border-radius: 20px;
+}
+.event-btn{
+    color: #B92C00;
+    border: 1px solid #000000;
+    padding: 0.7rem 1.5rem;
+    border-radius: 20px;
+}
+.our-believe{
+    width: 73vw;
+    margin: auto;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 4.25rem;
+}
+.doyou{
+    width: 73vw;
+    margin: auto;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.know_us-container{
+    width: 80vw;
+    margin: auto;
+    padding: 2rem;
+}
+.know-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8rem;
+}
+.know-us-content{
+    width: 45%;
+    margin-left: 2rem;
+}
+.know-us:nth-of-type(2){
+    flex-direction: row-reverse;
+}
+.core_values-section{
+    width: 85%;
+    margin: auto;
+}
+.core_values{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.core_value{
+    background-color: #008DB9;
+    /* padding: 4rem; */
+    width: 25%;
+    border-radius: 15px;
+    /* margin: auto; */
+    margin: 2rem;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.core_values-section h1{
+    margin: auto;
+    width: fit-content;
+}
+.core_value p{
+   margin: 0 auto;
+   margin-top: 3rem;
+   font-weight: 700;
+   color: white;
+}
+.theGameChanger{    
+    margin: auto;
+    width: 80%;
+}
+.theGameChanger > h1{
+    width: fit-content;
+    margin: 3rem auto;
+}
+.about-gameChangers{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.about-gameChangers p{
+    width: 40%;
+}
+.about-gameChangers img{
+    width: min-content;
+}
+.game-changers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.game-changer{
+    background-color: #DBDBDB;
+    width: 33%;
+    border-radius: 20px 0 20px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 2rem;
+}
+.game_changers_image img{
+    width: 100%;
+}
+.game_changer_info{
+    padding: 1.5rem;
+}
+.game_changer_info h3,.game_changer_info h5{
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+.game_changer_info p{
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+.game-changer-social_media{
+    display: flex;
+    align-items: center;
+}
+.game-changer-social_media li{
+    margin: 0.5rem 0.5rem 0 0;
+}
